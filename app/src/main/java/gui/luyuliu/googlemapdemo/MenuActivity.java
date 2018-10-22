@@ -65,18 +65,6 @@ public class MenuActivity extends AppCompatActivity
     }
 
     // Init Methods
-    /*
-    private void init(){
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view){
-                Intent intent=new Intent(MenuActivity.this,MapActivity.class);
-                startActivity(intent);
-            }
-        });
-
-    }*/
 
     public boolean isServiceOk(){
         Log.d(TAG,"isServiceOk: checking google service version: ");
@@ -97,8 +85,6 @@ public class MenuActivity extends AppCompatActivity
         }
     }
 
-
-
     // Map Methods
     @Override
     public void onMapReady(GoogleMap googleMap) {
@@ -113,7 +99,8 @@ public class MenuActivity extends AppCompatActivity
                 return;
             }
             mMap.setMyLocationEnabled(true);
-            mMap.getUiSettings().setMyLocationButtonEnabled(false);
+            mMap.getUiSettings().setMyLocationButtonEnabled(true);
+            mMap.getUiSettings().setZoomControlsEnabled(true);
         }
     }
 
