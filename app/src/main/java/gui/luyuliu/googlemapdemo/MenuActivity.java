@@ -242,9 +242,6 @@ public class MenuActivity extends AppCompatActivity
         if (id == R.id.nav_camera) {
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
-            Intent intent=new Intent(MenuActivity.this,MapActivity.class);
-            startActivity(intent);
-
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
