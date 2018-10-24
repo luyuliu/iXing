@@ -1,0 +1,2677 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.150507,
+          39.976939
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH123.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-70 at Hilliard Rome Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8944,
+          39.935114
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-70_at_Courtright_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-70 at Courtright Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.027550,
+          40.194451
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/cmh/US-23_at_Home_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "US-23 at Home Rd.  "
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.075319,
+          40.057055
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Dierker-Henderson.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Henderson Rd at Dierker.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.120662,
+          40.015707
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-270_at_N_of_Roberts_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at N of Roberts Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.814275,
+          39.982907
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Broad-RNA.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Broad St at Reynoldsburg - New Albany Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.093380,
+          40.064819
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/bethel-sawmill.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Bethel Rd at Sawmill Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.056797,
+          40.063670
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/bethel-godown.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Bethel Rd at Godown Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.971877,
+          40.124617
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-71_at_Park_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-71 at Park Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.003618,
+          39.957060
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CivicCtr-Rich.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Civic Center Dr at Rich St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.107233,
+          39.987458
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Trabue-Wilson.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Trabue Rd at Wilson Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.880821,
+          39.915721
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Hamilton-Refugee.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Hamilton Rd at Refugee Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.814885,
+          39.932158
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-70_at_East_of_Brice_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-70 at East of Brice Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.972119,
+          40.148229
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH093.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-71 at Gemini Place.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.975380,
+          40.087249
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Dublin-Karl.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "SR-161/Dublin-Granville Rd at Karl Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.984397,
+          39.968393
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Lestor-Spring.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-71 at Lester Dr/Spring St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0160,
+          40.122269
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/US_23_at_Flint_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "US-23 at Flint Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.915267,
+          39.946738
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/James-Livingston.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "James Rd at Livingston Ave.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.883278,
+          39.889243
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/US-33_at_Hamilton_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "US-33 at Hamilton Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.999395,
+          39.956247
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/HighMain.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "High St at Main St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.094130,
+          39.942537
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Sullivant-Wilson.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Sullivant Ave at Wilson Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.002851,
+          39.955880
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Main-Second.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Main St at Second St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.086255,
+          39.973608
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-70_at_East_of_Wilson_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-70 at East of Wilson Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.983722,
+          39.964277
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Broad-I71SB.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Broad St at I-71 SB.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.854252,
+          40.083771
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/SR-161_at_Hamilton_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "SR-161 at Hamilton Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.937156,
+          40.058651
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Morse-Westerville.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Morse Rd at Westerville Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.995007,
+          39.955322
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Fourth-Mound.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Fourth St at Mound St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.037459,
+          40.063008
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/bethel-olentangy.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Bethel Rd at Olentangy River Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.956327,
+          40.148715
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Worthington_Rd_at_Ikea_Way.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Worthington Rd at Ikea Way.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.989212,
+          40.142972
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/Polaris_Pkwy_at_Sancus_Blvd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Polaris Pkwy at Sancus Blvd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.001232,
+          39.956071
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Front-Main.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Front St at Main St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.002931,
+          39.953526
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-70_at_2nd_St.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-70 at 2nd St / Mound St on ramp.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.033619,
+          40.018272
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/SR-315_at_Ackerman_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "SR-315 at Ackerman Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.090607,
+          39.927470
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Clime-Demorest.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Clime Rd at Demorest Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.977493,
+          40.060384
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Karl-Morse.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Morse Rd at Karl Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.991830,
+          40.135772
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/Sancus_Blvd_at_Lazelle_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Sancus Blvd at Lazelle Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.996105,
+          39.939438
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Greenlawn-High.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Greenlawn Ave at High St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.091733,
+          40.158666
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/SR-750_at_Sawmill_Pkwy.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "SR-750 at Sawmill Pkwy.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8277,
+          39.857896
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/US-33_at_Gender_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "US-33 at Gender Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.183518,
+          39.978571
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-70_at_Cole_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-70 at Cole Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.909281,
+          40.048387
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Stelzer-Easton.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Stelzer Rd at Easton Way.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.016121,
+          40.127187
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/US_23_at_Northwoods_Blvd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "US-23 at Northwoods Blvd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.923186,
+          40.057886
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Morse-Sunbury.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Morse Rd at Sunburry Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0892,
+          39.840630
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH71-665.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-71 at SR-665.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position.   If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.982690,
+          39.952307
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Livingston-Parsons.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Livingston Ave at Parsons Ave.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.843614,
+          39.954499
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-270_at_E_Main_St.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at E Main St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.015897,
+          40.123273
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/US-23NB_Trench_North.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "US-23 NB Trench North end, near Flint Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.139922,
+          40.075307
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/britton-tuttle.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Tuttle Crossing Blvd at Britton Pkwy.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.004407,
+          39.862531
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/High-Rathmell.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "High St at Rathmell Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.963040,
+          39.949220
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Livingston-Lockbourne.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Livingston Ave at Lockbourne Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.015986,
+          40.119622
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/US-23NB_Trench_South.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "US-23 NB Trench South end, near Campus View Blvd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.910683,
+          40.057760
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Morse-Stelzer.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Morse Rd at Stelzer Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.999346,
+          39.962959
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH125-L.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Rhodes Tower S/W camera.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position.  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.122524,
+          40.077318
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Frantz-Tuttle.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Tuttle Crossing Blvd at Frantz Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.832555,
+          39.912675
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Brice-Chatterton-Refugee.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Brice Rd at Chatterton/Refugee Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.966285,
+          39.915894
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/SR104-Lockbourne.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "SR-104 at Lockbourne Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.967826,
+          40.147936
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Gemini_at_Orion.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Gemini Place at Orion Place.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.116583,
+          39.929924
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Georgesville-Hall.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Georgesville Rd at Hall Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9028,
+          40.032852
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-270_at_McCutcheon_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at McCutcheon Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.953271,
+          40.059715
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Cleveland-Morse.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Cleveland Ave at Morse Rd..  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.863259,
+          39.915218
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Refugee-Chatterton-NoeBixby.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Refugee/Chatterton Rd at Noe Bixby Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.829832,
+          39.923274
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Brice-Gender.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Brice Rd at Gender Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.744492,
+          39.834662
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/US-33_at_Pickerington_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "US-33 at Pickerington Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.983518,
+          39.978275
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH129.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-71 at I-670.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.995325,
+          40.023975
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-71_at_Weber_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-71 at Weber Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.035590,
+          39.945989
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Central-Harrisburg-Mound.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Central Ave/Harrisburg Pike at Mound St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.066827,
+          40.053834
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Henderson-Reed.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Henderson Rd at Reed Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.016182,
+          40.118316
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/US_23_at_Campus_View_Blvd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "US-23 at Campus View Blvd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.091275,
+          40.096683
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Dublin-Sawmill.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "SR-161/Dublin-Granville Rd at Sawmill Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.122709,
+          40.154212
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/SR-257_at_Glick_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "SR-257 at SR-750 / Glick Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.023153,
+          39.968729
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-670_at_SR-315.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-670 at SR-315.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.990374,
+          39.970442
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Cleveland-Grove.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Cleveland Ave at Grove St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.017907,
+          39.957419
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/SR-315_at_Town_St.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "SR-315 at Town St. This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.878057,
+          39.944650
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Hamilton-Livingston.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Hamilton Rd at Livingston Ave.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.112431,
+          40.067719
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Dublin-Hayden.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Dublin Rd/Frantz Rd at Hayden Run Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.982728,
+          39.967195
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/ElijahPierce-Long.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-71 at Elijah Pierce Ave/Long St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.018485,
+          40.156935
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/US-23_at_SR-750.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "US-23 at SR-750.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.790945,
+          39.985122
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Broad-Waggoner.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Broad St at Waggoner Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.021509,
+          40.175057
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/US-23_at_Orange_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "US-23 at Orange Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.095403,
+          39.966814
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Fisher-Wilson.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Fisher Rd at Wilson Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.836022,
+          39.980449
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Broad-McNaughten.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Broad St at McNaughten Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.906152,
+          40.082045
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH061c.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 @ SR-161 (NE Side).  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.950852,
+          40.085166
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Cleveland-Dublin.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "SR-161/Dublin-Granville Rd at Cleveland Ave.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.990089,
+          39.971315
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Cleveland-I670EB.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Cleveland Ave at I-670 EB.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.030093,
+          39.948043
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-70_at_Mound_St.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-70 at Mound St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.043605,
+          40.063197
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/bethel-jasonway.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Bethel Rd at Jasonway Ave.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.045714,
+          40.156977
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/SR-315_at_SR-750.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "SR-315 at SR-750.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.985764,
+          39.956337
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Mound-Washington.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Mound St at Washington Ave.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.049751,
+          40.053148
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Henderson-Kenny.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Henderson Rd at Kenny Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.179665,
+          40.109543
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/US-33_at_Post_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "US-33 at SR-161 / Post Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.994403,
+          40.031024
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/71-NorthBroadway.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-71 at North Broadway St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.994542,
+          40.014740
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-71_at_Hudson_St.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-71 at Hudson St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.003340,
+          39.966127
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Front-Spring.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Front St at Spring St.  This is a Pan/Tilt/Zoom camera.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.984232,
+          40.000827
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-71_at_17th_Ave.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-71 at 17th Ave.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.985680,
+          39.986196
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-71_at_5th_Ave.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-71 at 5th Ave.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.999802,
+          39.953475
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Front-I70.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-70 at Front St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.021472,
+          39.965979
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Dublin-315.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "SR-315 at Dublin Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.998190,
+          39.962632
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Broad-Third.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Broad St at 3rd St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.995754,
+          39.9595
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Fourth-Town.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "4th St at Town St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.997675,
+          40.046483
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-71_at_Cooke_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-71 at Cooke Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.044852,
+          39.956690
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-70_at_W_Broad_St.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-70 at W Broad St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.996902,
+          39.965264
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Fourth-Long.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "4th St at Long St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.943881,
+          39.948232
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-70_at_Livingston_Ave.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-70 at Livingston Ave.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.958729,
+          39.953446
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-70_at_Kelton_Ave.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-70 at Kelton Ave.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.046041,
+          39.968882
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-670_at_Grandview_Ave.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-670 at Grandview Ave.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.915685,
+          39.931401
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-70_at_James_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-70 at James Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.878456,
+          39.937037
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-70_at_Hamilton_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-70 at Hamilton Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.021601,
+          39.977438
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/SR-315_at_I-670_N.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "SR-315 at I-670 / Goodale St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.830423,
+          39.933039
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/70-Brice.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-70 at Brice Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.995164,
+          39.915752
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/SR104-High.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "SR-104 at High St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.009466,
+          39.939611
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-71_at_Greenlawn_Ave.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-71 at Greenlawn Ave.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.100114,
+          39.974580
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-70_at_Wilson_Rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-70 at Wilson Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.998126,
+          40.061749
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/71-Sinclair.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-71 at Morse Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.987665,
+          40.087339
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/71-DublinGranville.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-71 at SR-161, Dublin-Granville Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.981260,
+          40.105592
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/71-Shrock.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-71 at Schrock Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.961487,
+          40.108045
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/270-Shrock.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at Schrock Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.949333,
+          40.110757
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Cleveland-Shrock.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Cleveland Ave at Schrock Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.970569,
+          40.142226
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH039.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-71 at Polaris Pkwy.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.976770,
+          40.110593
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH040-L.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at I-71 (North side).  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.983965,
+          39.967546
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH041-L.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-71 at Long St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.009037,
+          40.005906
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/high_st_at_lane_ave.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "High St at Lane Ave.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.003554,
+          39.968717
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Front-Nationwide.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Front St at Nationwide Blvd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.009659,
+          39.971365
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/Neil-Vine.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Neil Ave at Vine St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, City of Columbus personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 122
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.023660,
+          40.006497
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/lane_ave_at_olentangy_river_rd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "Lane Ave at Olentangy River Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 123
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.984393,
+          39.954614
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH049.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-70 at I-71 Split (West).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 124
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.038099,
+          39.892416
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH050-L.jpg",
+        "ImageUpdateInterval": "10",
+        "Description": "I-71 at I-270 (South Side).  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position.   If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 125
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.075470,
+          39.903862
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH051-L.jpg",
+        "ImageUpdateInterval": "10",
+        "Description": "I-270 at US-62.   This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 126
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.120230,
+          39.923129
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH052-L.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at Georgesville Rd.   This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 127
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.118846,
+          39.952313
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH053.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at Broad St/US-40.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 128
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.118522,
+          39.976443
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH054-L.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at I-70 (West side).  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position.   If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 129
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.118814,
+          40.002346
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH055.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at Roberts Rd.   This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 130
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.124456,
+          40.032964
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH056.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at Cemetery Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 131
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0298,
+          40.030150
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH057-L.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "SR-315 at W North Broadway.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 132
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.032878,
+          40.052188
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH058.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "SR-315 at Henderson Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 133
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.031201,
+          40.062852
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH059.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "SR-315 at Bethel Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 134
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.065316,
+          40.110846
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH060.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at Smoky Row Rd.   This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 135
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.901692,
+          40.011420
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH062.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at I-670.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 136
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.867566,
+          40.004196
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH063-L.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at Hamilton Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 137
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.853608,
+          39.978402
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH064.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at E Broad St/SR-16.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 138
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.852586,
+          39.933308
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH065-L.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at I-70 (East side).  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 139
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.897604,
+          39.902318
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH066.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at US-33 (SE Side).  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 140
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.933889,
+          39.871355
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH067.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at Alum Creek Dr.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 141
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.003762,
+          39.875017
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH068-L.jpg",
+        "ImageUpdateInterval": "10",
+        "Description": "I-270 at US-23 (South Side).  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position.   If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 142
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.013869,
+          39.917665
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH069-L.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-71 at Frank Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 143
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.061302,
+          39.967369
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH070.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-70 at I-670.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 144
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.025280,
+          39.991457
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH071-L.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "SR-315 at King Ave.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 145
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.030555,
+          40.006162
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH072-L.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "SR-315 at Lane Ave.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 146
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.135363,
+          40.076153
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/I-270_at_Tuttle_Crossing_Blvd.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at Tuttle Crossing.   This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 147
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.133474,
+          40.099231
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH074.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at US-33/SR-161 (NW Side).  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position.   If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 148
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.115187,
+          40.108286
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH075-L.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at Dublin Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position.   If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 149
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.036513,
+          40.089747
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH076.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "SR-315 at SR-161.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 150
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.956334,
+          39.980309
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH077.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-670 at Leonard Ave.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 151
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.939581,
+          39.985810
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH078.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-670 at 5th Ave.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 152
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.925411,
+          39.999447
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH079.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-670 at Johnstown/Airport Dr.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 153
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.090532,
+          40.108632
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH080-L.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at Sawmill Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 154
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.035694,
+          40.112470
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH081.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at SR-315.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 155
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.016768,
+          40.112523
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH082.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at US-23 (North Side).  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 156
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.919853,
+          39.917556
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH083.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "US-33 at SR-104.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 157
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.925544,
+          40.100405
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH084.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at SR 3/Westerville Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 158
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.902639,
+          40.057763
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH085-L.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-270 at Morse Rd.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 159
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.926728,
+          39.931603
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH086.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-70 at US-33.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and is indicated in the top left corner of this image (N, S, E, W, NE, NW, SE, SW).  If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 160
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.997601,
+          39.976066
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH087.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-670 at Fourth St.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 161
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.004635,
+          39.973330
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH088.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-670 E at at Park St Cap.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 162
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.788428,
+          39.933119
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH090.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-70 at SR-256.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 163
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.009765,
+          39.973524
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH091.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-670 at Neil Ave.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 164
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.990028,
+          39.971612
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/CMH092.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "I-670 EB at Cleveland Ave.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 165
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.877331,
+          40.079999
+        ]
+      },
+      "properties": {
+        "SmallImage": "http://cmhimg01.dot.state.oh.us/images/CMH/SR-161_at_Little_Turtle_Way.jpg",
+        "ImageUpdateInterval": "5",
+        "Description": "SR-161 at Little Turtle Way.  This is a Pan/Tilt/Zoom camera.  The camera view direction is variable and may not be relative to its current position. If this camera image is not currently updating or displaying properly, ODOT personnel are aware of the situation and are working to address the issue."
+      },
+      "id": 166
+    }
+  ]
+}

@@ -9,9 +9,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/osu_icon_layer"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/osu_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <meta-data
@@ -23,7 +23,7 @@
 
         <activity
             android:name=".MenuActivity"
-            android:label="@string/title_activity_menu"
+            android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

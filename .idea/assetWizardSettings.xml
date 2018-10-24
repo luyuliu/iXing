@@ -23,7 +23,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="scalingPercent" value="95" />
+                                                <entry key="scalingPercent" value="110" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -33,9 +33,9 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="foregroundImage" value="C:\Users\Luyu Liu\Desktop\TheOhioStateUniversity-Scarlet-Stacked-RGBHEX.jpg" />
-                                      <entry key="foregroundLayerName" value="osu_logo_main" />
-                                      <entry key="outputName" value="osu_logo" />
+                                      <entry key="foregroundImage" value="C:\Users\Luyu Liu\Desktop\osu_logo-web.png" />
+                                      <entry key="foregroundLayerName" value="osu_icon_layer" />
+                                      <entry key="outputName" value="osu_icon" />
                                     </map>
                                   </option>
                                 </PersistentState>

@@ -35,6 +35,19 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.gms.maps.model.BitmapDescriptor;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.LatLng;
+
+import com.google.maps.android.data.Feature;
+import com.google.maps.android.data.geojson.GeoJsonFeature;
+import com.google.maps.android.data.geojson.GeoJsonLayer;
+import com.google.maps.android.data.geojson.GeoJsonPointStyle;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
 
 public class MenuActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, OnMapReadyCallback {
@@ -101,6 +114,71 @@ public class MenuActivity extends AppCompatActivity
             mMap.setMyLocationEnabled(true);
             mMap.getUiSettings().setMyLocationButtonEnabled(true);
             mMap.getUiSettings().setZoomControlsEnabled(true);
+
+            GeoJsonLayer layer = null;
+            try {
+                layer = new GeoJsonLayer(mMap, R.raw.cameras, this);
+            } catch (IOException e) {
+                Log.e(TAG, "GeoJSON file could not be read");
+            } catch (JSONException e) {
+                Log.e(TAG, "GeoJSON file could not be converted to a JSONObject");
+            }
+            addGeoJsonLayerToMap(layer);
+        }
+    }
+
+    private void addGeoJsonLayerToMap(GeoJsonLayer layer) {
+
+        addColorsToMarkers(layer);
+        layer.addLayerToMap();
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(31.4118,-103.5355)));
+        // Demonstrate receiving features via GeoJsonLayer clicks.
+        layer.setOnFeatureClickListener(new GeoJsonLayer.GeoJsonOnFeatureClickListener() {
+            @Override
+            public void onFeatureClick(Feature feature) {
+                Toast.makeText(MenuActivity.this,
+                        "Feature clicked: " + feature.getProperty("Description"),
+                        Toast.LENGTH_SHORT).show();
+            }
+
+        });
+
+    }
+
+    private void addColorsToMarkers(GeoJsonLayer layer) {
+        // Iterate over all the features stored in the layer
+        for (GeoJsonFeature feature : layer.getFeatures()) {
+            // Check if the magnitude property exists
+            if (feature.getProperty("mag") != null && feature.hasProperty("place")) {
+                double magnitude = Double.parseDouble(feature.getProperty("mag"));
+
+                // Get the icon for the feature
+                BitmapDescriptor pointIcon = BitmapDescriptorFactory
+                        .defaultMarker(magnitudeToColor(magnitude));
+
+                // Create a new point style
+                GeoJsonPointStyle pointStyle = new GeoJsonPointStyle();
+
+                // Set options for the point style
+                pointStyle.setIcon(pointIcon);
+                pointStyle.setTitle("Magnitude of " + magnitude);
+                pointStyle.setSnippet("Earthquake occured " + feature.getProperty("place"));
+
+                // Assign the point style to the feature
+                feature.setPointStyle(pointStyle);
+            }
+        }
+    }
+
+    private static float magnitudeToColor(double magnitude) {
+        if (magnitude < 1.0) {
+            return BitmapDescriptorFactory.HUE_CYAN;
+        } else if (magnitude < 2.5) {
+            return BitmapDescriptorFactory.HUE_GREEN;
+        } else if (magnitude < 4.5) {
+            return BitmapDescriptorFactory.HUE_YELLOW;
+        } else {
+            return BitmapDescriptorFactory.HUE_RED;
         }
     }
 
