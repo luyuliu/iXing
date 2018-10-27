@@ -30,6 +30,14 @@ import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+
+import com.google.android.gms.maps.GoogleMap.InfoWindowAdapter;
+import com.google.android.gms.maps.GoogleMap.OnInfoWindowClickListener;
+import com.google.android.gms.maps.GoogleMap.OnInfoWindowCloseListener;
+import com.google.android.gms.maps.GoogleMap.OnInfoWindowLongClickListener;
+import com.google.android.gms.maps.GoogleMap.OnMarkerClickListener;
+import com.google.android.gms.maps.GoogleMap.OnMarkerDragListener;
+
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
@@ -40,12 +48,17 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 
 import com.google.maps.android.data.Feature;
+import com.google.maps.android.data.Geometry;
 import com.google.maps.android.data.geojson.GeoJsonFeature;
 import com.google.maps.android.data.geojson.GeoJsonLayer;
 import com.google.maps.android.data.geojson.GeoJsonPointStyle;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+
+
+import com.google.android.gms.maps.model.Marker;
+import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.io.IOException;
 
@@ -131,7 +144,6 @@ public class MenuActivity extends AppCompatActivity
 
         addColorsToMarkers(layer);
         layer.addLayerToMap();
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(31.4118,-103.5355)));
         // Demonstrate receiving features via GeoJsonLayer clicks.
         layer.setOnFeatureClickListener(new GeoJsonLayer.GeoJsonOnFeatureClickListener() {
             @Override
@@ -139,6 +151,10 @@ public class MenuActivity extends AppCompatActivity
                 Toast.makeText(MenuActivity.this,
                         "Feature clicked: " + feature.getProperty("Description"),
                         Toast.LENGTH_SHORT).show();
+                // start Popup insert.s
+                LatLng ll=(LatLng)feature.getGeometry().getGeometryObject();
+
+                startActivity(new Intent(MenuActivity.this, PopActivity.class));
             }
 
         });
@@ -226,6 +242,7 @@ public class MenuActivity extends AppCompatActivity
     private void moveCamera(LatLng latLng, float zoom){
         Log.e(TAG, "moveCamera: moving the camera to: lat:" + latLng.latitude+", lng: "+latLng.longitude);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, zoom));
+
     }
 
     private void initMap(){
