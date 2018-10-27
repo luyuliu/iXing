@@ -66,6 +66,7 @@ public class MenuActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, OnMapReadyCallback {
     private static final String TAG="MenuActivity";
     private static final int ERROR_DIALOG_REQUEST=9001;
+    private String url="https://geography.osu.edu/sites/geography.osu.edu/files/Li_Jialin.jpg";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -148,13 +149,16 @@ public class MenuActivity extends AppCompatActivity
         layer.setOnFeatureClickListener(new GeoJsonLayer.GeoJsonOnFeatureClickListener() {
             @Override
             public void onFeatureClick(Feature feature) {
-                Toast.makeText(MenuActivity.this,
-                        "Feature clicked: " + feature.getProperty("Description"),
-                        Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MenuActivity.this,
+                //        "Feature clicked: " + feature.getProperty("Description"),
+                //        Toast.LENGTH_SHORT).show();
                 // start Popup insert.s
                 LatLng ll=(LatLng)feature.getGeometry().getGeometryObject();
+                url=feature.getProperty("SmallImage");
+                Intent popIntent=new Intent(MenuActivity.this, PopActivity.class);
+                popIntent.putExtra("url",url);
 
-                startActivity(new Intent(MenuActivity.this, PopActivity.class));
+                startActivity(popIntent);
             }
 
         });
