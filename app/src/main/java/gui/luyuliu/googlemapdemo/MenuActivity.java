@@ -3,6 +3,7 @@ package gui.luyuliu.googlemapdemo;
 import android.Manifest;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
+import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
@@ -24,6 +25,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.DatePicker;
+import android.widget.TimePicker;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -63,12 +65,21 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.io.IOException;
+import java.text.DateFormat;
+import java.util.Calendar;
 
 public class MenuActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, OnMapReadyCallback {
     private static final String TAG="MenuActivity";
     private static final int ERROR_DIALOG_REQUEST=9001;
-    private String url="https://geography.osu.edu/sites/geography.osu.edu/files/Li_Jialin.jpg";
+    private String url="";
+
+    private int mYear;
+    private int mMonth;
+    private int mDayOfMonth;
+    private int mHour;
+    private int mMinute;
+    private int mSecond;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -151,9 +162,9 @@ public class MenuActivity extends AppCompatActivity
         layer.setOnFeatureClickListener(new GeoJsonLayer.GeoJsonOnFeatureClickListener() {
             @Override
             public void onFeatureClick(Feature feature) {
-                //Toast.makeText(MenuActivity.this,
-                //        "Feature clicked: " + feature.getProperty("Description"),
-                //        Toast.LENGTH_SHORT).show();
+                Toast.makeText(MenuActivity.this,
+                        "Feature clicked: " + feature.getId(),
+                        Toast.LENGTH_SHORT).show();
                 // start Popup insert.s
                 LatLng ll=(LatLng)feature.getGeometry().getGeometryObject();
                 url=feature.getProperty("SmallImage");
@@ -347,10 +358,25 @@ public class MenuActivity extends AppCompatActivity
                     new DatePickerDialog.OnDateSetListener() {
                         @Override
                         public void onDateSet(DatePicker datePicker, int year, int month, int day) {
+                            mYear=year;
+                            mMonth=month;
+                            mDayOfMonth=day;
 
+                            TimePickerDialog timePickerDialog = new TimePickerDialog(MenuActivity.this, new TimePickerDialog.OnTimeSetListener() {
+                                @Override
+                                public void onTimeSet(TimePicker timePicker, int hourOfDay, int minutes) {
+                                    mHour=hourOfDay;
+                                    mMinute=minutes;
+                                    Log.d(TAG,""+mYear+":"+mMonth+":"+mDayOfMonth+":"+mHour+":"+mMinute);
+                                }
+                            }, 0, 0, false);
+                            timePickerDialog.show();
                         }
                     }, 2018, 10, 27);
             datePickerDialog.show();
+
+
+
         } else if (id == R.id.nav_authors) {
 
 
@@ -360,5 +386,9 @@ public class MenuActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void SettingOnClickHandler(MenuItem item){
+        Log.d(TAG,"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
     }
 }
