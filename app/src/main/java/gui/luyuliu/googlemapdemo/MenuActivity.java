@@ -81,6 +81,8 @@ public class MenuActivity extends AppCompatActivity
     private int mMinute;
     private int mSecond;
 
+    private boolean isCurrent=true;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -354,32 +356,37 @@ public class MenuActivity extends AppCompatActivity
         if (id == R.id.nav_camera) {
 
         } else if (id == R.id.nav_setting) {
-            DatePickerDialog datePickerDialog = new DatePickerDialog(MenuActivity.this,
-                    new DatePickerDialog.OnDateSetListener() {
-                        @Override
-                        public void onDateSet(DatePicker datePicker, int year, int month, int day) {
-                            mYear=year;
-                            mMonth=month;
-                            mDayOfMonth=day;
+            if (!isCurrent){
+                DatePickerDialog datePickerDialog = new DatePickerDialog(MenuActivity.this,
+                        new DatePickerDialog.OnDateSetListener() {
+                            @Override
+                            public void onDateSet(DatePicker datePicker, int year, int month, int day) {
+                                mYear=year;
+                                mMonth=month;
+                                mDayOfMonth=day;
 
-                            TimePickerDialog timePickerDialog = new TimePickerDialog(MenuActivity.this, new TimePickerDialog.OnTimeSetListener() {
-                                @Override
-                                public void onTimeSet(TimePicker timePicker, int hourOfDay, int minutes) {
-                                    mHour=hourOfDay;
-                                    mMinute=minutes;
-                                    Log.d(TAG,""+mYear+":"+mMonth+":"+mDayOfMonth+":"+mHour+":"+mMinute);
-                                }
-                            }, 0, 0, false);
-                            timePickerDialog.show();
-                        }
-                    }, 2018, 10, 27);
-            datePickerDialog.show();
+                                TimePickerDialog timePickerDialog = new TimePickerDialog(MenuActivity.this, new TimePickerDialog.OnTimeSetListener() {
+                                    @Override
+                                    public void onTimeSet(TimePicker timePicker, int hourOfDay, int minutes) {
+                                        mHour=hourOfDay;
+                                        mMinute=minutes;
+                                        Log.d(TAG,""+mYear+":"+mMonth+":"+mDayOfMonth+":"+mHour+":"+mMinute);
+                                    }
+                                }, 0, 0, false);
+                                timePickerDialog.show();
+                            }
+                        }, 2018, 10, 27);
+                datePickerDialog.show();
+            }
+            else{
+                Toast.makeText(this,"Please switch to history mode.",Toast.LENGTH_SHORT).show();
+            }
 
 
 
         } else if (id == R.id.nav_authors) {
 
-
+            Toast.makeText(this,"Greeting from hackDerbyTeam: Luyu_Liu, Jialin_Li, and Yuxiao_Zhao!",Toast.LENGTH_SHORT).show();
 
         }
 
@@ -388,7 +395,16 @@ public class MenuActivity extends AppCompatActivity
         return true;
     }
 
-    public void SettingOnClickHandler(MenuItem item){
-        Log.d(TAG,"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+    public void switchShowingStatus(MenuItem item){
+        if (item.getTitle()=="Now showing: Current")
+        {
+            isCurrent=false;
+            item.setTitle("Now showing: History");
+        }
+        else{
+            isCurrent=true;
+            item.setTitle("Now showing: Current");
+        }
     }
+
 }

@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.util.DisplayMetrics;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
 
@@ -37,8 +38,10 @@ public class PopActivity extends Activity {
         loadImageFromUrl(url);
     }
 
+
     private void loadImageFromUrl(String url) {
-        Picasso.with(this).load (url).placeholder(R.mipmap.ic_launcher)
+        Picasso.with(this).invalidate(url);
+        Picasso.with(this).load (url).placeholder(R.mipmap.loading)
                 .error(R.mipmap.ic_launcher)
                 .into(imageView,new com.squareup.picasso.Callback(){
 
