@@ -57,6 +57,7 @@ import com.google.maps.android.data.geojson.GeoJsonFeature;
 import com.google.maps.android.data.geojson.GeoJsonLayer;
 import com.google.maps.android.data.geojson.GeoJsonPointStyle;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -65,8 +66,13 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.text.DateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.HashMap;
+
+import static java.lang.Integer.parseInt;
 
 public class MenuActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, OnMapReadyCallback {
@@ -154,6 +160,21 @@ public class MenuActivity extends AppCompatActivity
             addGeoJsonLayerToMap(layer);
         }
     }
+    public String loadJSONFromAsset() {
+        String json = null;
+        try {
+            InputStream is = getResources().openRawResource(R.raw.detection_result);
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            json = new String(buffer, "UTF-8");
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            return null;
+        }
+        return json;
+    }
 
     private void addGeoJsonLayerToMap(GeoJsonLayer layer) {
 
@@ -164,7 +185,7 @@ public class MenuActivity extends AppCompatActivity
             @Override
             public void onFeatureClick(Feature feature) {
                 Toast.makeText(MenuActivity.this,
-                        "Feature clicked: " + feature.getId(),
+                        "Feature clicked: " + feature.getProperty("ID"),
                         Toast.LENGTH_SHORT).show();
                 // start Popup insert.s
 
@@ -172,7 +193,19 @@ public class MenuActivity extends AppCompatActivity
                     url=feature.getProperty("SmallImage");
                 }
                 else{
-                    url = "http://gis.osu.edu/hackoht18/php/weekimage.php?camera="+feature.getId()+"&dateindex=%22"+mYear+"-"+ String.format("%02d", mMonth)+"-"+String.format("%02d", mDayOfMonth)+"%22&timeindex=%22"+String.format("%02d", mHour)+"_"+String.format("%02d", mMinute)+"_00%22";
+                    if (mYear==2018 && mMonth==10 && mDayOfMonth==27 && mHour == 12 &&mMinute==0){
+                        url = "http://gis.osu.edu/hackoht18/demo_detection/result_image_167/results_2018_10_27_1200_"+feature.getProperty("ID")+".jpg";
+                    }
+                    else{
+
+                        if (mDayOfMonth<27 && mDayOfMonth>26){
+                            url = "http://gis.osu.edu/hackoht18/php/weekimage.php?camera="+feature.getProperty("ID")+"&dateindex=%22"+mYear+"-"+ String.format("%02d", mMonth)+"-"+String.format("%02d", mDayOfMonth)+"%22&timeindex=%22"+String.format("%02d", mHour)+"_"+String.format("%02d", mMinute)+"_00%22";
+                        }
+
+                        else{
+                            url = "http://gis.osu.edu/hackoht18/php/weekimage.php?camera="+feature.getProperty("ID")+"&dateindex=%22"+mYear+"-"+ String.format("%02d", mMonth)+"-"+String.format("%02d", mDayOfMonth)+"%22&timeindex=%22"+String.format("%02d", mHour)+"_"+String.format("%02d", mMinute)+"_00%22";
+                        }
+                        }
                 }
                 Log.e(TAG, url);
                 LatLng ll=(LatLng)feature.getGeometry().getGeometryObject();
@@ -190,9 +223,11 @@ public class MenuActivity extends AppCompatActivity
     private void addColorsToMarkers(GeoJsonLayer layer) {
         // Iterate over all the features stored in the layer
         for (GeoJsonFeature feature : layer.getFeatures()) {
+            //Log.d(TAG,""+parseInt(feature.getProperty("Time")));
             // Check if the magnitude property exists
-            if (feature.getProperty("mag") != null && feature.hasProperty("place")) {
-                double magnitude = Double.parseDouble(feature.getProperty("mag"));
+            if (feature.getProperty("Time") != null ) {
+                int magnitude = parseInt(feature.getProperty("Time"));
+                Log.d(TAG,""+magnitude);
 
                 // Get the icon for the feature
                 BitmapDescriptor pointIcon = BitmapDescriptorFactory
@@ -203,8 +238,7 @@ public class MenuActivity extends AppCompatActivity
 
                 // Set options for the point style
                 pointStyle.setIcon(pointIcon);
-                pointStyle.setTitle("Magnitude of " + magnitude);
-                pointStyle.setSnippet("Earthquake occured " + feature.getProperty("place"));
+                pointStyle.setTitle("Cars detected: " + magnitude);
 
                 // Assign the point style to the feature
                 feature.setPointStyle(pointStyle);
@@ -369,7 +403,7 @@ public class MenuActivity extends AppCompatActivity
                             @Override
                             public void onDateSet(DatePicker datePicker, int year, int month, int day) {
                                 mYear=year;
-                                mMonth=month;
+                                mMonth=month+1;
                                 mDayOfMonth=day;
 
                                 TimePickerDialog timePickerDialog = new TimePickerDialog(MenuActivity.this, new TimePickerDialog.OnTimeSetListener() {
@@ -382,7 +416,7 @@ public class MenuActivity extends AppCompatActivity
                                 }, 0, 0, false);
                                 timePickerDialog.show();
                             }
-                        }, 2018, 10, 27);
+                        }, 2018, 9, 27);
                 datePickerDialog.show();
             }
             else{
@@ -405,7 +439,6 @@ public class MenuActivity extends AppCompatActivity
     public void switchShowingStatus(MenuItem item){
         if (item.getTitle()=="Now showing: Current")
         {
-            Toast.makeText(this,"Greeting from hackDerbyTeam: Luyu_Liu, Jialin_Li, and Yuxiao_Zhao!",Toast.LENGTH_SHORT).show();
             isCurrent=false;
             item.setTitle("Now showing: History");
         }
