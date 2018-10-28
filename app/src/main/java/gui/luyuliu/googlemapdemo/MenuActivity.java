@@ -79,7 +79,6 @@ public class MenuActivity extends AppCompatActivity
     private int mDayOfMonth;
     private int mHour;
     private int mMinute;
-    private int mSecond;
 
     private boolean isCurrent=true;
 
@@ -168,8 +167,15 @@ public class MenuActivity extends AppCompatActivity
                         "Feature clicked: " + feature.getId(),
                         Toast.LENGTH_SHORT).show();
                 // start Popup insert.s
+
+                if(!isCurrent){
+                    url=feature.getProperty("SmallImage");
+                }
+                else{
+                    url = "http://gis.osu.edu/hackoht18/php/weekimage.php?camera="+feature.getId()+"&dateindex=%22"+mYear+"-"+ String.format("%2d", mMonth)+"-"+String.format("%2d", mDayOfMonth)+"%22timeindex=%22"+String.format("%2d", mHour)+":"+String.format("%2d", mMinute)+":00";
+                }
                 LatLng ll=(LatLng)feature.getGeometry().getGeometryObject();
-                url=feature.getProperty("SmallImage");
+
                 Intent popIntent=new Intent(MenuActivity.this, PopActivity.class);
                 popIntent.putExtra("url",url);
 
