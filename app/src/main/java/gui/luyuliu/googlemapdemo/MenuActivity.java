@@ -1,6 +1,7 @@
 package gui.luyuliu.googlemapdemo;
 
 import android.Manifest;
+import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -22,6 +23,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -339,15 +341,19 @@ public class MenuActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-        } else if (id == R.id.nav_slideshow) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_setting) {
+            DatePickerDialog datePickerDialog = new DatePickerDialog(MenuActivity.this,
+                    new DatePickerDialog.OnDateSetListener() {
+                        @Override
+                        public void onDateSet(DatePicker datePicker, int year, int month, int day) {
 
-        } else if (id == R.id.nav_share) {
+                        }
+                    }, 2018, 10, 27);
+            datePickerDialog.show();
+        } else if (id == R.id.nav_authors) {
 
-        } else if (id == R.id.nav_send) {
+
 
         }
 
