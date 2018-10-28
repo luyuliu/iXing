@@ -12,9 +12,9 @@ The data comes from http://www.ohgo.com/.
 ## Screenshots of the app
 
 ## Features
-#### show the real time traffic camera images from 167 sites in Columbus
-#### set the time and show the past week historic images of traffic camera
-#### let the user to upload the images of traffic taken by their phones and display (to be continued)
-#### show the traffic jam in the rush hour (to be continued) in the map
+- show the real time traffic camera images from 167 sites in Columbus;
+- set the time and show the past week historic images of traffic camera;
+- let the user to upload the images of traffic taken by their phones and display (to be continued);
+- show the traffic jam in the rush hour (to be continued) in the map;
 
 ## Test
