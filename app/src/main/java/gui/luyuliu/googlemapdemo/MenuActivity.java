@@ -168,12 +168,13 @@ public class MenuActivity extends AppCompatActivity
                         Toast.LENGTH_SHORT).show();
                 // start Popup insert.s
 
-                if(!isCurrent){
+                if(isCurrent){
                     url=feature.getProperty("SmallImage");
                 }
                 else{
-                    url = "http://gis.osu.edu/hackoht18/php/weekimage.php?camera="+feature.getId()+"&dateindex=%22"+mYear+"-"+ String.format("%2d", mMonth)+"-"+String.format("%2d", mDayOfMonth)+"%22timeindex=%22"+String.format("%2d", mHour)+":"+String.format("%2d", mMinute)+":00";
+                    url = "http://gis.osu.edu/hackoht18/php/weekimage.php?camera="+feature.getId()+"&dateindex=%22"+mYear+"-"+ String.format("%02d", mMonth)+"-"+String.format("%02d", mDayOfMonth)+"%22&timeindex=%22"+String.format("%02d", mHour)+"_"+String.format("%02d", mMinute)+"_00%22";
                 }
+                Log.e(TAG, url);
                 LatLng ll=(LatLng)feature.getGeometry().getGeometryObject();
 
                 Intent popIntent=new Intent(MenuActivity.this, PopActivity.class);
@@ -404,6 +405,7 @@ public class MenuActivity extends AppCompatActivity
     public void switchShowingStatus(MenuItem item){
         if (item.getTitle()=="Now showing: Current")
         {
+            Toast.makeText(this,"Greeting from hackDerbyTeam: Luyu_Liu, Jialin_Li, and Yuxiao_Zhao!",Toast.LENGTH_SHORT).show();
             isCurrent=false;
             item.setTitle("Now showing: History");
         }
