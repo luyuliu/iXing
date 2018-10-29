@@ -10,6 +10,14 @@ We use the traffic camera data to detect the cars and determine if there is a ja
 The data comes from http://www.ohgo.com/.
 
 ## Screenshots of the app
+<p align="center">
+  <img src="https://github.com/luyuliu/iXing/blob/master/snapshots/20181028082211.png" width="180" title="main activity">
+  <img src="https://github.com/luyuliu/iXing/blob/master/snapshots/Screenshot_1540706555.png" width="180" alt="menu">
+  <img src="https://github.com/luyuliu/iXing/blob/master/snapshots/20181028082148.png" width="180" alt="demo 1">
+  <img src="https://github.com/luyuliu/iXing/blob/master/snapshots/20181028082206.png" width="180" alt="demo 2">
+  <img src="https://github.com/luyuliu/iXing/blob/master/snapshots/20181028094206.png" width="180" alt="set date">
+  <img src="https://github.com/luyuliu/iXing/blob/master/snapshots/20181028094159.png" width="180" alt="set time">
+</p>
 
 ## Features
 - show the real time traffic camera images from 167 sites in Columbus;
